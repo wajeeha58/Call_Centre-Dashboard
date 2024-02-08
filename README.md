@@ -4,31 +4,44 @@
 
 ![Dashboard](https://github.com/wajeeha58/Call_Centre-Dashboard/assets/131583709/360b1300-1fbd-441a-84ac-317f52cfdbc9)
 
-## Purpose
-This dataset captures information related to customer service interactions in a call center. It includes details such as call ID, timestamps, call center city, channels, customer names, reasons for the call, response time, sentiment, state, call duration in minutes, and CSAT (Customer Satisfaction) score. The purpose of this dataset is to analyze and understand customer interactions, response times, and overall satisfaction.
+# Call Center Dataset Analysis
 
-## Description
-ID: Unique identifier for each call.
-Call Timestamp: Date and time of the call.
-Call-Centers City: City where the call center is located.
-Channel: Communication channel used (e.g., Call-Center, Chatbot, Email).
-City: Customer's location city.
-Customer Name: Name of the customer.
-Reason: Purpose or topic of the call (e.g., Billing Question, Service Outage, Payments).
-Response Time: Time taken to respond to the customer, categorized as Within SLA, Above SLA, or Below SLA.
-Sentiment: Customer's sentiment categorized as Very Positive, Positive, Neutral, Negative, or Very Negative.
-State: Customer's location state.
-Call Duration In Minutes: Duration of the call in minutes.
-CSAT Score: Customer Satisfaction score.
+## Problem
+This dataset addresses challenges in monitoring and optimizing customer interactions within a call center. Key issues include assessing response times, understanding customer sentiment, and enhancing overall customer satisfaction.
 
-## KPIs (Key Performance Indicators)
-Response Time: Monitor the percentage of calls handled within the Service Level Agreement (SLA).
-CSAT Score: Evaluate overall customer satisfaction based on the provided scores.
-Call Duration: Analyze the average call duration to identify outliers or trends.
-Sentiment Analysis: Understand customer sentiment distribution and trends.
+## Tools and Approach
+- **Data Processing and Transformation:**
+  - Leveraged ETL processes for data cleaning and transformation.
+  - Utilized [specific tools or libraries] for efficient data manipulation.
+
+- **Data Visualization:**
+  - Employed [visualization tools or libraries] to create insightful charts and graphs.
+  - Emphasized visualizations for effective communication of key metrics.
+
+- **Key Metric Generation:**
+  - Utilized DAZ (Data Analytics and Zoning) for generating essential metrics.
+  - Applied data modeling techniques for a comprehensive understanding of call center performance.
+
+## Key Findings
+- **Response Time Analysis:**
+  - Identified patterns in response times, allowing for targeted improvements in specific regions.
+  - Ensured adherence to SLAs (Service Level Agreements) for prompt issue resolution.
+
+- **Sentiment Analysis:**
+  - Explored customer sentiment to understand the overall satisfaction level.
+  - Key insights into positive and negative sentiments informed customer service strategies.
+
+- **State-wise Performance:**
+  - Analyzed call data on a state-by-state basis to identify areas for operational optimization.
+  - State-specific findings contributed to tailored approaches in different regions.
+
+- **CSAT Score Correlation:**
+  - Explored the correlation between call duration and CSAT scores.
+  - Implemented strategies to improve CSAT scores based on the analysis.
 
 ## Insights
-Billing questions are a common reason for calls.
-The majority of calls are handled within SLA, contributing to positive CSAT scores.
-Chatbot interactions have a wide range of sentiment, with both very positive and very negative instances.
-Monitoring response time can help improve overall customer satisfaction.
+- [Add any specific insights or noteworthy observations from your analysis here. This could include trends, outliers, or patterns that are particularly interesting or impactful.]
+
+## Usage
+- Clone the repository and explore the Jupyter notebooks for detailed insights.
+- Access the raw dataset in the 'data' directory for further analysis.
