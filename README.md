@@ -4,7 +4,7 @@
 
 ![Dashboard](https://github.com/wajeeha58/Call_Centre-Dashboard/assets/131583709/360b1300-1fbd-441a-84ac-317f52cfdbc9)
 
-# Call Center Dataset Analysis
+# Call Center Dashboard
 
 ## Problem
 This dataset addresses challenges in monitoring and optimizing customer interactions within a call center. Key issues include assessing response times, understanding customer sentiment, and enhancing overall customer satisfaction.
